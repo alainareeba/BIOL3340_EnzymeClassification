@@ -2,6 +2,7 @@
 
 This repository holds an attempt to apply machine learning techniques to model and predict Enzyme Commission numbers (EC1 through EC6) based on molecular fingerprint data in Kaggle's [Multi-label Classification of Enzyme Substrates](https://www.kaggle.com/datasets/gopalns/ec-mixed-class?select=mixed_ecfp.csv) dataset.
 
+---
 ## Data
 - Type: 3 .csv files of molecular/chemical fingerprint data in tabular format
 - Size: each file is ~1 MB (3.2 MB total), 1039 instances, 1229 features (total)
@@ -22,5 +23,6 @@ The data from all 3 .csv files were concatenated into one file for simplicity.
 ### Software Setup
 Google Colab was used for majority of model training. Visualizations were completed with matplotlib and seaborn. Modelling and analysis was done through pandas, numpy, and scikit-learn.
 
+---
 ### Data Availability
 Data can be downloaded from its [Kaggle page](https://www.kaggle.com/datasets/gopalns/ec-mixed-class?select=mixed_ecfp.csv).
