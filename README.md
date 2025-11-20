@@ -1,4 +1,4 @@
-# BIOL3340_EnzymeClassification
+# Multi-Label Enzyme Class Prediction Using Machine Learning Models
 
 This repository holds an attempt to apply machine learning techniques to model and predict Enzyme Commission numbers (EC1 through EC6) based on molecular fingerprint data in Kaggle's [Multi-label Classification of Enzyme Substrates](https://www.kaggle.com/datasets/gopalns/ec-mixed-class?select=mixed_ecfp.csv) dataset.
 
