@@ -25,8 +25,28 @@
 - What I changed before committing: removed indicated error in code (the `labels` argument)
 - How I verified correctness (tests, sample data): N/A
 ---
-- Tool/model & version: 
-- What I asked for: 
-- Snippet of prompt(s): 
-- What I changed before committing: 
-- How I verified correctness (tests, sample data): 
+- Tool/model & version: GPT-5.1
+- What I asked for: modifying existing code
+- Snippet of prompt(s): "I want to investigate overfitting, but accuracy is super harsh in this context, I want to change to jaccard_score, what the best way to do that?"
+- What I changed before committing: personalizing code for data and intended purpose
+- How I verified correctness (tests, sample data): N/A
+---
+- Tool/model & version: GPT-5.1
+- What I asked for: modifying existing code
+- Snippet of prompt(s): "Would this work for a PCA scree plot:
+
+      ...
+      pca = PCA(n_components=80,random_state=1203)
+      pca_fit = pca.fit(X_train_scaled)
+
+      PC_values = np.arange(pca.n_components_) + 1
+
+      plt.plot(PC_values, pca.explained_variance_ratio_, marker='o')
+      plt.title('Scree Plot')
+      plt.xlabel('Principal Component')
+      plt.ylabel('Variance Explained')
+      plt.show()
+  "
+- What I changed before committing: adding np.cumsum() to make plot curve easier to interpret
+- How I verified correctness (tests, sample data): N/A
+---
