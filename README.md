@@ -16,6 +16,7 @@ The data from all 3 .csv files were concatenated into one file for simplicity.
 - `notebooks` folder containing current code/progress
   - `Bioinf_enzymesubstrates.ipynb`: initial EDA, minor preprocessing (e.g., consolidating given .csv files), and first models with data
   - `RF_top10s.ipynb`: builds on feature importances generated in `Bioinf_enzymesubstrates.ipynb`; explores effectiveness of this dimensionality reduction technique
+  - `enzymes_classifierchain.ipynb`: shows modelling process using interations of SciKit-Learn's ClassifierChain and various dimensionality reduction techniques
 - `docs` folder containing `ai_usage.md` log
 - `metrics` folder containing raw calculated metrics (and other collected outputs) from modelling as .csv files
 
